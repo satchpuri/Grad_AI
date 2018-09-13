@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{193ED749-4AC7-66EA-ACD4-C6B21A8DAE5A}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "AIProject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
