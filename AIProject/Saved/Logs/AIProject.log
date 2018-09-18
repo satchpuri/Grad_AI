@@ -1211,3 +1211,187 @@ LogInit: Object subsystem initialized
 [2018.09.18-23.43.51:926][939]LogFileHelpers: Saving map 'Forge' took 0.196
 [2018.09.18-23.44.58:003][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Fire_Cliffs_CliffWall_05b8)
 [2018.09.18-23.45.02:981][893]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-23.46.09:206][364]Cmd: SELECT NONE
+[2018.09.18-23.46.20:961][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.46.21:078][734]MapCheck: New page: Map Check
+[2018.09.18-23.46.21:093][734]Cmd: MAP REBUILD ALLVISIBLE
+[2018.09.18-23.46.21:093][734]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.09.18-23.46.21:137][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.09.18-23.46.21:142][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Env_Fire_Magma2, compiling. 
+[2018.09.18-23.46.21:145][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_VolcanoStorm, compiling. 
+[2018.09.18-23.46.21:149][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.09.18-23.46.21:152][734]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.18-23.46.21:152][734]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.18-23.46.21:152][734]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.18-23.46.21:152][734]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.18-23.46.21:152][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fire_Cliffs_TilingStone_01_inst, compiling. 
+[2018.09.18-23.46.21:157][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Env_Fire_Magma2_2, compiling. 
+[2018.09.18-23.46.21:161][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fire_Tree_Stump_glow, compiling. 
+[2018.09.18-23.46.21:166][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fire_Tree_Stump_1, compiling. 
+[2018.09.18-23.46.21:171][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Env_Fire_Cliffs_TilingCliffWall, compiling. 
+[2018.09.18-23.46.21:176][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_IceMountain_Boulder, compiling. 
+[2018.09.18-23.46.21:182][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Env_Ice_RockyTerrain2, compiling. 
+[2018.09.18-23.46.21:189][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Env_Ice_Nordheed, compiling. 
+[2018.09.18-23.46.21:195][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Env_Ice_PillarArch_Snow, compiling. 
+[2018.09.18-23.46.21:201][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Env_Ice_RockyTerrian4, compiling. 
+[2018.09.18-23.46.21:207][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Env_Ice_Cliffs_TilingCliffWall, compiling. 
+[2018.09.18-23.46.21:213][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_GateStone_SnowBlend, compiling. 
+[2018.09.18-23.46.21:218][734]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_IceMountain_FloorRuins_Snow, compiling. 
+[2018.09.18-23.46.22:263][734]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.18-23.46.22:263][734]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.18-23.46.22:263][734]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.18-23.46.22:263][734]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.18-23.46.22:263][734]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.18-23.46.22:263][734]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.18-23.46.22:263][734]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.18-23.46.22:263][734]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.18-23.46.22:263][734]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.18-23.46.22:263][734]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.18-23.46.22:263][734]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.18-23.46.22:263][734]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.18-23.46.22:263][734]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.18-23.46.22:263][734]TextureStreamingBuild: Display: Compiling optional shaders took 1.131 seconds.
+[2018.09.18-23.46.22:310][734]LogLevel: Display: Export Material TexCoord Scales took 0.047 seconds.
+[2018.09.18-23.46.22:325][734]TextureStreamingBuild: Display: Build Texture Streaming took 0.015 seconds.
+[2018.09.18-23.46.22:337][734]LightingResults: New page: Lighting Build - Sep 18, 2018, 3:46:22 PM
+[2018.09.18-23.46.22:426][734]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.09.18-23.46.22:633][734]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.09.18-23.46.22:651][734]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.09.18-23.46.23:712][734]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.09.18-23.46.23:712][734]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12244
+[2018.09.18-23.46.25:873][734]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.09.18-23.46.25:873][734]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.09.18-23.46.25:873][734]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.09.18-23.46.25:873][734]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.09.18-23.46.25:873][734]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.09.18-23.46.26:208][734]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.09.18-23.46.26:209][734]MapCheck: New page: Forge - Sep 18, 2018, 3:46:26 PM
+[2018.09.18-23.46.26:209][734]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.09.18-23.46.26:210][734]MapCheck: Warning: SM_SnowBoulder13 SM_SnowBoulder13 is in the same location as SM_SnowBoulder18 
+[2018.09.18-23.46.26:210][734]MapCheck: Warning: SM_SnowBoulder18 SM_SnowBoulder18 is in the same location as SM_SnowBoulder13 
+[2018.09.18-23.46.26:278][734]MapCheck: Map check complete: 1 Error(s), 2 Warning(s), took 69.873ms to complete.
+[2018.09.18-23.46.26:301][734]LogEditorBuildUtils: Build time 0:05
+[2018.09.18-23.46.26:309][734]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-23.46.26:381][735]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_4, compiling. 
+[2018.09.18-23.46.26:386][735]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.18-23.46.26:386][735]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_4, compiling. 
+[2018.09.18-23.46.26:396][735]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.18-23.46.26:409][736]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Fire_Cliffs_TilingStone_01_inst, compiling. 
+[2018.09.18-23.46.26:414][736]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.18-23.46.26:414][736]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Fire_Cliffs_TilingStone_01_inst, compiling. 
+[2018.09.18-23.46.26:444][736]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.18-23.46.26:452][737]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Env_Fire_Magma2_2, compiling. 
+[2018.09.18-23.46.26:457][737]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Env_Fire_Magma2_2, compiling. 
+[2018.09.18-23.46.26:475][738]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Fire_Tree_Stump_glow, compiling. 
+[2018.09.18-23.46.26:481][738]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Fire_Tree_Stump_glow, compiling. 
+[2018.09.18-23.46.26:497][739]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Fire_Tree_Stump_1, compiling. 
+[2018.09.18-23.46.26:502][739]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Fire_Tree_Stump_1, compiling. 
+[2018.09.18-23.46.26:523][740]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Env_Fire_Cliffs_TilingCliffWall, compiling. 
+[2018.09.18-23.46.26:529][740]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Env_Fire_Cliffs_TilingCliffWall, compiling. 
+[2018.09.18-23.46.26:550][741]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_IceMountain_Boulder, compiling. 
+[2018.09.18-23.46.26:556][741]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_IceMountain_Boulder, compiling. 
+[2018.09.18-23.46.26:574][742]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Env_Ice_RockyTerrain2, compiling. 
+[2018.09.18-23.46.26:580][742]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Env_Ice_RockyTerrain2, compiling. 
+[2018.09.18-23.46.26:600][743]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Env_Ice_Nordheed, compiling. 
+[2018.09.18-23.46.26:606][743]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Env_Ice_Nordheed, compiling. 
+[2018.09.18-23.46.26:624][744]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Env_Ice_PillarArch_Snow, compiling. 
+[2018.09.18-23.46.26:630][744]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Env_Ice_PillarArch_Snow, compiling. 
+[2018.09.18-23.46.26:648][745]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Env_Ice_RockyTerrian4, compiling. 
+[2018.09.18-23.46.26:654][745]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Env_Ice_RockyTerrian4, compiling. 
+[2018.09.18-23.46.26:672][746]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Env_Ice_Cliffs_TilingCliffWall, compiling. 
+[2018.09.18-23.46.26:678][746]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Env_Ice_Cliffs_TilingCliffWall, compiling. 
+[2018.09.18-23.46.26:695][747]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_GateStone_SnowBlend, compiling. 
+[2018.09.18-23.46.26:700][747]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_GateStone_SnowBlend, compiling. 
+[2018.09.18-23.46.26:715][748]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_IceMountain_FloorRuins_Snow, compiling. 
+[2018.09.18-23.46.26:721][748]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_IceMountain_FloorRuins_Snow, compiling. 
+[2018.09.18-23.46.29:135][750]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.09.18-23.46.29:135][750]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.09.18-23.46.29:135][750]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.09.18-23.46.29:135][750]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.18-23.46.29:135][750]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.18-23.46.57:034][204]LogSlate: Window 'Message Log' being destroyed
+[2018.09.18-23.46.57:038][204]LogSlate: Window 'Message Log' being destroyed
+[2018.09.18-23.46.59:967][469]LightingResults: Warning: SM_Env_Fire_Jagged_Rock_2 Object has wrapping UVs.
+[2018.09.18-23.47.04:553][887]LightingResults: Warning: SM_Env_Fire_MagmaFall Object has wrapping UVs.
+[2018.09.18-23.47.21:451][395]Job is a success!
+[2018.09.18-23.47.21:474][396]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-23.47.21:604][396]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.107s
+[2018.09.18-23.47.21:604][396]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2018.09.18-23.47.21:604][396]LogVolumetricLightmapImport:      BrickData 1280x15x5 = 3.8Mb (trimmed 0.7Mb due to 0.010000 MinBrickError)
+[2018.09.18-23.47.21:604][396]LogVolumetricLightmapImport:      Bricks at Level
+[2018.09.18-23.47.21:604][396]LogVolumetricLightmapImport:          0: 1.5% covering 100.0% of volume
+[2018.09.18-23.47.21:604][396]LogVolumetricLightmapImport:          1: 11.3% covering 12.1% of volume
+[2018.09.18-23.47.21:604][396]LogVolumetricLightmapImport:          2: 87.2% covering 1.5% of volume
+[2018.09.18-23.47.21:804][396]LogMaterial: Warning: Material /Game/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Materials/M_Env_Ice_RockyTerrian4.M_Env_Ice_RockyTerrian4 needed to have new flag set bUsedWithStaticLighting !
+[2018.09.18-23.47.21:806][396]LogMaterial: Missing cached shader map for material M_Env_Ice_RockyTerrian4, compiling. 
+[2018.09.18-23.47.21:816][396]LogMaterial: Warning: Material /Game/InfinityBladeIceLands/Environments/Ice/EXO_MountainSide/Materials/M_IceMountain_FloorRuins_Snow.M_IceMountain_FloorRuins_Snow needed to have new flag set bUsedWithStaticLighting !
+[2018.09.18-23.47.21:818][396]LogMaterial: Missing cached shader map for material M_IceMountain_FloorRuins_Snow, compiling. 
+[2018.09.18-23.47.21:827][396]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.18-23.47.21:827][396]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.18-23.47.21:827][396]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.18-23.47.21:827][396]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.18-23.47.21:828][396]LogMaterial: Warning: Material /Game/InfinityBladeIceLands/Environments/Ice/EXO_MountainSide/Materials/M_GateStone_SnowBlend.M_GateStone_SnowBlend needed to have new flag set bUsedWithStaticLighting !
+[2018.09.18-23.47.21:829][396]LogMaterial: Missing cached shader map for material M_GateStone_SnowBlend, compiling. 
+[2018.09.18-23.47.24:807][396]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2018.09.18-23.47.24:807][396]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2018.09.18-23.47.24:807][396]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2018.09.18-23.47.24:807][396]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2018.09.18-23.47.24:807][396]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2018.09.18-23.47.24:807][396]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2018.09.18-23.47.24:807][396]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 512X256)
+[2018.09.18-23.47.24:807][396]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 512X512)
+[2018.09.18-23.47.24:807][396]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 512X512)
+[2018.09.18-23.47.24:807][396]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2018.09.18-23.47.24:807][396]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2018.09.18-23.47.24:807][396]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2018.09.18-23.47.24:807][396]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 128X64)
+[2018.09.18-23.47.24:807][396]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 128X128)
+[2018.09.18-23.47.24:807][396]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 128X128)
+[2018.09.18-23.47.24:807][396]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.09.18-23.47.24:807][396]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.09.18-23.47.24:807][396]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.09.18-23.47.25:008][396]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 128X64)
+[2018.09.18-23.47.25:008][396]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 128X128)
+[2018.09.18-23.47.25:008][396]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X64)
+[2018.09.18-23.47.25:137][396]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X1024)
+[2018.09.18-23.47.25:137][396]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2018.09.18-23.47.25:174][396]Lightmass on IGMOH1375-21: 54.8 sec total, 200 ms importing, 78 ms setup, 16.8 sec photons, 37.3 sec processing, 0 ms extra exporting [95/95 mappings]. Threads: 4:21 min total, 1:43 min processing.
+[2018.09.18-23.47.25:213][396]LogStaticLightingSystem: Illumination: 1:02 min (2.94 sec encoding lightmaps, 327 ms encoding shadowmaps)
+[2018.09.18-23.47.25:213][396]LogStaticLightingSystem: Lightmap texture memory:  11.7 MB (11.7 MB streaming, 0.0 MB non-streaming), 10 textures
+[2018.09.18-23.47.25:213][396]LogStaticLightingSystem: Shadowmap texture memory: 2.8 MB (2.8 MB streaming, 0.0 MB non-streaming), 5 textures
+[2018.09.18-23.47.25:908][396]DumpUnbuiltLightIteractions
+[2018.09.18-23.47.25:908][396]Lights with unbuilt interactions: 0
+[2018.09.18-23.47.25:908][396]
+[2018.09.18-23.47.25:908][396]Primitives with unbuilt interactions: 0
+[2018.09.18-23.47.28:511][396]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.09.18-23.47.28:511][396]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.18-23.47.28:511][396]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.18-23.47.28:511][396]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.18-23.47.28:559][397]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.09.18-23.47.28:559][397]MapCheck: New page: Forge - Sep 18, 2018, 3:47:28 PM
+[2018.09.18-23.47.28:560][397]MapCheck: Warning: SM_SnowBoulder13 SM_SnowBoulder13 is in the same location as SM_SnowBoulder18 
+[2018.09.18-23.47.28:560][397]MapCheck: Warning: SM_SnowBoulder18 SM_SnowBoulder18 is in the same location as SM_SnowBoulder13 
+[2018.09.18-23.47.28:615][397]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 55.84ms to complete.
+[2018.09.18-23.47.32:518][840]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.47.32:592][849]LogSlate: Window 'Message Log' being destroyed
+[2018.09.18-23.47.32:595][849]LogSlate: Window 'Message Log' being destroyed
+[2018.09.18-23.47.54:843][455]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-23.47.57:119][726]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-23.47.57:174][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfinityBladeFireLands/Maps/Forge" FILE="../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.18-23.47.57:303][726]LogSavePackage: Save=112.10ms
+[2018.09.18-23.47.57:303][726]LogSavePackage: Moving '../../../../../Documents/AIProject/Saved/Forge0A4FF23C4AC44461CA0BD5B8187BD0D8.tmp' to '../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge.umap'
+[2018.09.18-23.47.57:305][726]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge.umap
+[2018.09.18-23.47.57:325][726]LogFileHelpers: Saving map 'Forge' took 0.202
+[2018.09.18-23.47.57:327][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfinityBladeFireLands/Maps/Forge_BuiltData" FILE="../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge_BuiltData.uasset" SILENT=true
+[2018.09.18-23.47.57:942][726]LogSavePackage: Save=595.07ms
+[2018.09.18-23.47.57:942][726]LogSavePackage: Moving '../../../../../Documents/AIProject/Saved/Forge_BuiltData1BF8720644D7E6FB1C213E926588BC9E.tmp' to '../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge_BuiltData.uasset'
+[2018.09.18-23.47.57:944][726]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge_BuiltData.uasset
+[2018.09.18-23.47.57:987][726]LogSavePackage: Save=15.43ms
+[2018.09.18-23.47.57:987][726]LogSavePackage: Moving '../../../../../Documents/AIProject/Saved/M_Env_Ice_RockyTerrian40CFCDFBE435140F5413320A43A8C3CD7.tmp' to '../../../../../Documents/AIProject/Content/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Materials/M_Env_Ice_RockyTerrian4.uasset'
+[2018.09.18-23.47.57:989][726]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/AIProject/Content/InfinityBladeIceLands/Environments/Ice/Env_Ice_Tree/Materials/M_Env_Ice_RockyTerrian4.uasset
+[2018.09.18-23.47.58:029][726]LogSavePackage: Save=14.58ms
+[2018.09.18-23.47.58:029][726]LogSavePackage: Moving '../../../../../Documents/AIProject/Saved/M_GateStone_SnowBlend9D8308004662232D45CB6087F0A44D18.tmp' to '../../../../../Documents/AIProject/Content/InfinityBladeIceLands/Environments/Ice/EXO_MountainSide/Materials/M_GateStone_SnowBlend.uasset'
+[2018.09.18-23.47.58:031][726]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/AIProject/Content/InfinityBladeIceLands/Environments/Ice/EXO_MountainSide/Materials/M_GateStone_SnowBlend.uasset
+[2018.09.18-23.47.58:070][726]LogSavePackage: Save=14.45ms
+[2018.09.18-23.47.58:070][726]LogSavePackage: Moving '../../../../../Documents/AIProject/Saved/M_IceMountain_FloorRuins_SnowD0E1443D42AC3ECAA788ADBA3C3F3DB3.tmp' to '../../../../../Documents/AIProject/Content/InfinityBladeIceLands/Environments/Ice/EXO_MountainSide/Materials/M_IceMountain_FloorRuins_Snow.uasset'
+[2018.09.18-23.47.58:071][726]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/AIProject/Content/InfinityBladeIceLands/Environments/Ice/EXO_MountainSide/Materials/M_IceMountain_FloorRuins_Snow.uasset
