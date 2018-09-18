@@ -1016,3 +1016,198 @@ LogInit: Object subsystem initialized
 [2018.09.18-23.28.27:468][993]LogSavePackage: Save=26.21ms
 [2018.09.18-23.28.27:468][993]LogSavePackage: Moving '../../../../../Documents/AIProject/Saved/Forge_BuiltData950791D64AB867CD7064BEAC49C7BC11.tmp' to '../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge_BuiltData.uasset'
 [2018.09.18-23.28.27:469][993]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge_BuiltData.uasset
+[2018.09.18-23.30.51:362][819]Cmd: SELECT NONE
+[2018.09.18-23.30.59:867][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Fire_Cliffs_CliffWall_05b7)
+[2018.09.18-23.31.01:172][958]Cmd: EDIT COPY
+[2018.09.18-23.31.01:385][983]Cmd: EDIT PASTE
+[2018.09.18-23.31.07:917][649]Cmd: EDIT PASTE
+[2018.09.18-23.31.32:467][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Fire_Cliffs_CliffWall_05b11)
+[2018.09.18-23.31.35:523][698]Cmd: EDIT COPY
+[2018.09.18-23.31.35:742][719]Cmd: EDIT PASTE
+[2018.09.18-23.31.47:938][ 63]Cmd: EDIT PASTE
+[2018.09.18-23.32.01:321][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Fire_Cliffs_CliffWall_05b13)
+[2018.09.18-23.32.02:883][702]Cmd: EDIT COPY
+[2018.09.18-23.32.03:095][727]Cmd: EDIT PASTE
+[2018.09.18-23.32.20:186][625]Cmd: EDIT COPY
+[2018.09.18-23.32.20:422][647]Cmd: EDIT PASTE
+[2018.09.18-23.32.42:069][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Fire_Cliffs_CliffWall_05b16)
+[2018.09.18-23.32.42:997][120]Cmd: EDIT COPY
+[2018.09.18-23.32.43:192][143]Cmd: EDIT PASTE
+[2018.09.18-23.33.36:264][ 15]Cmd: SELECT NONE
+[2018.09.18-23.33.58:867][445]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.34.00:105][576]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-23.34.00:108][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfinityBladeFireLands/Maps/Forge" FILE="../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.18-23.34.00:226][576]LogSavePackage: Save=99.61ms
+[2018.09.18-23.34.00:226][576]LogSavePackage: Moving '../../../../../Documents/AIProject/Saved/ForgeAE9A599F4FB334C8B191A4ADDD8671EF.tmp' to '../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge.umap'
+[2018.09.18-23.34.00:228][576]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge.umap
+[2018.09.18-23.34.00:249][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfinityBladeFireLands/Maps/Forge_BuiltData" FILE="../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge_BuiltData.uasset" SILENT=true
+[2018.09.18-23.34.00:295][576]LogSavePackage: Save=20.24ms
+[2018.09.18-23.34.00:295][576]LogSavePackage: Moving '../../../../../Documents/AIProject/Saved/Forge_BuiltDataA364BEAD40C3E3858626F1B97CEFA233.tmp' to '../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge_BuiltData.uasset'
+[2018.09.18-23.34.00:296][576]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge_BuiltData.uasset
+[2018.09.18-23.34.26:071][302]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-23.34.43:772][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.34.51:449][161]LogStaticMesh: Building static mesh SM_IceT3_BossWalls_01...
+[2018.09.18-23.34.51:492][161]LogStaticMesh: Built static mesh [0.04s] /Game/InfinityBladeIceLands/Environments/Ice/Ice_Castle/SM/SM_IceT3_BossWalls_01.SM_IceT3_BossWalls_01
+[2018.09.18-23.34.51:513][161]LogActorFactory: Actor Factory created SM_IceT3_BossWalls_01
+[2018.09.18-23.34.52:535][282]LogActorFactory: Actor Factory created SM_IceT3_BossWalls_01
+[2018.09.18-23.34.57:043][785]Cmd: DELETE
+[2018.09.18-23.34.57:043][785]Cmd: ACTOR DELETE
+[2018.09.18-23.34.57:045][785]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.18-23.34.57:055][785]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.09.18-23.35.00:238][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.35.14:063][597]LogStaticMesh: Building static mesh SM_Env_RockyRuins_Statue01gibD...
+[2018.09.18-23.35.14:081][597]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/EXO_RockyRuins/StaticMesh/SM_Env_RockyRuins_Statue01gibD.SM_Env_RockyRuins_Statue01gibD
+[2018.09.18-23.35.14:146][601]LogActorFactory: Actor Factory created SM_Env_RockyRuins_Statue01gibD
+[2018.09.18-23.35.14:982][700]LogActorFactory: Actor Factory created SM_Env_RockyRuins_Statue01gibD
+[2018.09.18-23.35.19:473][200]Cmd: DELETE
+[2018.09.18-23.35.19:473][200]Cmd: ACTOR DELETE
+[2018.09.18-23.35.19:476][200]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.18-23.35.19:486][200]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.09.18-23.35.20:747][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.35.20:785][328]LogStaticMesh: Building static mesh SM_EX_BrokenEnd_Side_Cap_001...
+[2018.09.18-23.35.20:809][328]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/EXO_RockyRuins/StaticMesh/SM_EX_BrokenEnd_Side_Cap_001.SM_EX_BrokenEnd_Side_Cap_001
+[2018.09.18-23.35.20:848][328]LogActorFactory: Actor Factory created SM_EX_BrokenEnd_Side_Cap_001
+[2018.09.18-23.35.21:564][403]LogActorFactory: Actor Factory created SM_EX_BrokenEnd_Side_Cap_001
+[2018.09.18-23.35.22:550][515]Cmd: DELETE
+[2018.09.18-23.35.22:550][515]Cmd: ACTOR DELETE
+[2018.09.18-23.35.22:552][515]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.18-23.35.22:562][515]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.09.18-23.35.24:202][710]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.35.24:291][716]LogStaticMesh: Building static mesh SM_EX_CoverBlocks_Curved_002...
+[2018.09.18-23.35.24:312][716]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/EXO_RockyRuins/StaticMesh/SM_EX_CoverBlocks_Curved_002.SM_EX_CoverBlocks_Curved_002
+[2018.09.18-23.35.24:328][716]LogActorFactory: Actor Factory created SM_EX_CoverBlocks_Curved_002
+[2018.09.18-23.35.24:762][767]LogActorFactory: Actor Factory created SM_EX_CoverBlocks_Curved_002
+[2018.09.18-23.35.25:283][824]Cmd: DELETE
+[2018.09.18-23.35.25:283][824]Cmd: ACTOR DELETE
+[2018.09.18-23.35.25:285][824]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.18-23.35.25:295][824]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.09.18-23.35.27:209][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.35.27:270][ 58]LogStaticMesh: Building static mesh SM_Ex_Walls_Vault_001...
+[2018.09.18-23.35.27:296][ 58]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeIceLands/Environments/Ice/EXO_RockyRuins/StaticMesh/SM_Ex_Walls_Vault_001.SM_Ex_Walls_Vault_001
+[2018.09.18-23.35.27:347][ 62]LogActorFactory: Actor Factory created SM_Ex_Walls_Vault_001
+[2018.09.18-23.35.28:103][151]LogActorFactory: Actor Factory created SM_Ex_Walls_Vault_001
+[2018.09.18-23.35.30:084][332]Cmd: DELETE
+[2018.09.18-23.35.30:084][332]Cmd: ACTOR DELETE
+[2018.09.18-23.35.30:086][332]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.18-23.35.30:096][332]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.09.18-23.35.31:120][454]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.35.31:180][461]LogStaticMesh: Building static mesh SM_Ex_Walls_Pillar_001...
+[2018.09.18-23.35.31:195][461]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/EXO_RockyRuins/StaticMesh/SM_Ex_Walls_Pillar_001.SM_Ex_Walls_Pillar_001
+[2018.09.18-23.35.31:254][466]LogActorFactory: Actor Factory created SM_Ex_Walls_Pillar_001
+[2018.09.18-23.35.32:234][582]LogActorFactory: Actor Factory created SM_Ex_Walls_Pillar_001
+[2018.09.18-23.35.35:255][899]Cmd: DELETE
+[2018.09.18-23.35.35:255][899]Cmd: ACTOR DELETE
+[2018.09.18-23.35.35:257][899]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.18-23.35.35:267][899]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.09.18-23.35.39:611][412]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.35.39:671][419]LogStaticMesh: Building static mesh SM_EX_CoverBlocks_Pillar_002...
+[2018.09.18-23.35.39:686][419]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/EXO_RockyRuins/StaticMesh/SM_EX_CoverBlocks_Pillar_002.SM_EX_CoverBlocks_Pillar_002
+[2018.09.18-23.35.39:762][426]LogActorFactory: Actor Factory created SM_EX_CoverBlocks_Pillar_002
+[2018.09.18-23.35.40:523][516]LogActorFactory: Actor Factory created SM_EX_CoverBlocks_Pillar_002
+[2018.09.18-23.35.43:719][853]Cmd: DELETE
+[2018.09.18-23.35.43:719][853]Cmd: ACTOR DELETE
+[2018.09.18-23.35.43:722][853]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.18-23.35.43:732][853]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.09.18-23.35.44:905][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.35.45:072][ 11]LogActorFactory: Actor Factory created SM_EX_CoverBlocks_Pillar_002
+[2018.09.18-23.35.46:879][225]LogActorFactory: Actor Factory created SM_EX_CoverBlocks_Pillar_002
+[2018.09.18-23.35.46:999][234]Cmd: DELETE
+[2018.09.18-23.35.46:999][234]Cmd: ACTOR DELETE
+[2018.09.18-23.35.47:002][234]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.18-23.35.47:012][234]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.09.18-23.35.52:193][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.35.59:895][397]LogTexture: Display: Building textures: T_Gate01_Snowmask (AutoDXT, 512X512)
+[2018.09.18-23.35.59:895][397]LogTexture: Display: Building textures: T_GatePillar_N (BC5, 2048X2048)
+[2018.09.18-23.35.59:895][397]LogTexture: Display: Building textures: T_GatePillar_D (AutoDXT, 2048X2048)
+[2018.09.18-23.35.59:895][397]LogMaterial: Missing cached shader map for material M_GateStone_SnowBlend, compiling. 
+[2018.09.18-23.35.59:902][397]LogStaticMesh: Building static mesh SM_ICE_Outside_MountainGate...
+[2018.09.18-23.35.59:909][397]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.18-23.35.59:909][397]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.18-23.35.59:909][397]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.18-23.36.00:131][397]LogStaticMesh: Built static mesh [0.23s] /Game/InfinityBladeIceLands/Environments/Ice/EXO_MountainSide/StaticMesh/SM_ICE_Outside_MountainGate.SM_ICE_Outside_MountainGate
+[2018.09.18-23.36.00:183][397]LogActorFactory: Actor Factory created SM_ICE_Outside_MountainGate
+[2018.09.18-23.36.02:113][607]LogActorFactory: Actor Factory created SM_ICE_Outside_MountainGate
+[2018.09.18-23.37.28:129][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.37.31:873][ 56]LogTexture: Display: Building textures: T_SnowRuins_Floor_N (BC5, 2048X2048)
+[2018.09.18-23.37.31:874][ 56]LogTexture: Display: Building textures: T_SnowRuins_Floor_D_Snow (AutoDXT, 2048X2048)
+[2018.09.18-23.37.31:874][ 56]LogTexture: Display: Building textures: T_SnowRuins_Floor_D (AutoDXT, 2048X2048)
+[2018.09.18-23.37.31:874][ 56]LogStaticMesh: Building static mesh MountainGate_01...
+[2018.09.18-23.37.31:892][ 56]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeIceLands/Environments/Ice/EXO_MountainSide/StaticMesh/MountainGate_01.MountainGate_01
+[2018.09.18-23.37.31:909][ 56]LogMaterial: Missing cached shader map for material M_IceMountain_FloorRuins_Snow, compiling. 
+[2018.09.18-23.37.31:920][ 56]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.18-23.37.31:920][ 56]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.18-23.37.31:920][ 56]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.18-23.37.31:936][ 56]LogActorFactory: Actor Factory created MountainGate_01
+[2018.09.18-23.37.35:075][360]LogActorFactory: Actor Factory created MountainGate_01
+[2018.09.18-23.38.00:200][192]Cmd: EDIT COPY
+[2018.09.18-23.38.00:435][219]Cmd: EDIT PASTE
+[2018.09.18-23.38.09:337][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MountainGate_01)
+[2018.09.18-23.38.10:393][266]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MountainGate_2)
+[2018.09.18-23.38.11:943][446]Cmd: EDIT COPY
+[2018.09.18-23.38.12:677][496]Cmd: EDIT PASTE
+[2018.09.18-23.39.05:946][245]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.09.18-23.39.14:666][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.39.37:805][792]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-23.40.09:763][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.40.11:316][712]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_WaterPlain2)
+[2018.09.18-23.40.11:374][712]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-23.40.12:726][867]Cmd: SELECT NONE
+[2018.09.18-23.40.14:785][112]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-23.40.16:295][291]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-23.40.16:353][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfinityBladeFireLands/Maps/Forge" FILE="../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.18-23.40.16:377][291]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X64)
+[2018.09.18-23.40.16:476][291]LogSavePackage: Save=106.87ms
+[2018.09.18-23.40.16:476][291]LogSavePackage: Moving '../../../../../Documents/AIProject/Saved/Forge2EF38D1840DEA384B50D70BA0D364C12.tmp' to '../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge.umap'
+[2018.09.18-23.40.16:478][291]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge.umap
+[2018.09.18-23.40.16:498][291]LogFileHelpers: Saving map 'Forge' took 0.200
+[2018.09.18-23.40.34:064][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Tree_Rock_POI2)
+[2018.09.18-23.40.34:915][404]Cmd: EDIT COPY
+[2018.09.18-23.40.35:193][437]Cmd: EDIT PASTE
+[2018.09.18-23.40.36:684][610]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.09.18-23.40.39:137][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Tree_Rock_POI3)
+[2018.09.18-23.40.45:201][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_RockTerrain02)
+[2018.09.18-23.40.46:009][607]Cmd: EDIT COPY
+[2018.09.18-23.40.46:370][649]Cmd: EDIT PASTE
+[2018.09.18-23.40.58:592][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_RockTerrain01)
+[2018.09.18-23.40.59:345][  7]Cmd: EDIT COPY
+[2018.09.18-23.40.59:605][ 38]Cmd: EDIT PASTE
+[2018.09.18-23.41.18:913][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Tree_Rock_POI3)
+[2018.09.18-23.41.19:607][152]Cmd: EDIT COPY
+[2018.09.18-23.41.19:826][177]Cmd: EDIT PASTE
+[2018.09.18-23.41.32:263][530]Cmd: EDIT COPY
+[2018.09.18-23.41.33:058][625]Cmd: EDIT PASTE
+[2018.09.18-23.41.42:137][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Tree_Rock_POI4)
+[2018.09.18-23.41.45:313][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Tree_Rock_POI5)
+[2018.09.18-23.41.52:084][754]Cmd: SELECT NONE
+[2018.09.18-23.41.55:201][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Tree_Rock_POI5)
+[2018.09.18-23.41.58:663][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Ice_Tree_Rock_POI4)
+[2018.09.18-23.42.08:128][492]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.09.18-23.42.10:198][724]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-23.42.11:700][897]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-23.42.11:757][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfinityBladeFireLands/Maps/Forge" FILE="../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.18-23.42.11:873][897]LogSavePackage: Save=104.43ms
+[2018.09.18-23.42.11:873][897]LogSavePackage: Moving '../../../../../Documents/AIProject/Saved/Forge2B7C92814B16ABC8809E89BB73307EA6.tmp' to '../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge.umap'
+[2018.09.18-23.42.11:875][897]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge.umap
+[2018.09.18-23.42.11:894][897]LogFileHelpers: Saving map 'Forge' took 0.189
+[2018.09.18-23.42.12:688][974]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.42.21:147][933]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.42.31:144][ 59]Cmd: TRANSACTION UNDO
+[2018.09.18-23.42.31:144][ 59]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.09.18-23.42.31:154][ 59]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2018.09.18-23.42.31:159][ 59]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2018.09.18-23.42.37:908][696]Cmd: TRANSACTION UNDO
+[2018.09.18-23.42.37:908][696]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.09.18-23.43.28:230][351]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-23.43.29:305][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_ICE_Outside_MountainGate)
+[2018.09.18-23.43.37:897][346]Cmd: SELECT NONE
+[2018.09.18-23.43.50:508][795]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-23.43.51:727][939]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.18-23.43.51:784][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfinityBladeFireLands/Maps/Forge" FILE="../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.09.18-23.43.51:803][939]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2018.09.18-23.43.51:804][939]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2018.09.18-23.43.51:905][939]LogSavePackage: Save=109.63ms
+[2018.09.18-23.43.51:905][939]LogSavePackage: Moving '../../../../../Documents/AIProject/Saved/Forge632E9DF14A1D159712C042B97E0DC525.tmp' to '../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge.umap'
+[2018.09.18-23.43.51:907][939]LogSavePackage: Display: Finished SavePackage ../../../../../Documents/AIProject/Content/InfinityBladeFireLands/Maps/Forge.umap
+[2018.09.18-23.43.51:926][939]LogFileHelpers: Saving map 'Forge' took 0.196
+[2018.09.18-23.44.58:003][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Fire_Cliffs_CliffWall_05b8)
+[2018.09.18-23.45.02:981][893]LogSlate: FSceneViewport::OnFocusLost() reason 2
