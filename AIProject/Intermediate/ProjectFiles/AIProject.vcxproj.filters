@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\AIProject.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{0B90A1E9-E3BC-4DEC-8F1E-D54D3494C87E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\AIProject.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\AIProjectEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{626C4696-5158-447B-9333-E39CA7594C9F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\AIProject">
+			<UniqueIdentifier>{CB696EAA-9C6A-4188-9709-759A1C403867}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\AIProject\AIProject.Build.cs">
+			<Filter>Source\AIProject</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\AIProject\AIProject.cpp">
+			<Filter>Source\AIProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AIProject\AIProject.h">
+			<Filter>Source\AIProject</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\AIProject\AIProjectGameModeBase.cpp">
+			<Filter>Source\AIProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AIProject\AIProjectGameModeBase.h">
+			<Filter>Source\AIProject</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
