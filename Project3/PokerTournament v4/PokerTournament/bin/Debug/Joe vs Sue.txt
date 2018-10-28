@@ -1,0 +1,7 @@
+Starting round 1
+Ante for this round: 10
+Betting round 1:
+Player: Sue Action Phase: Bet1 Action Name: bet Amount: 5
+ 
+Player: Joe Action Phase: Bet1 Action Name: raise Amount: 4
+ 
