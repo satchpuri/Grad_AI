@@ -5,364 +5,98 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
+// Decision Tree - OODA Loop - Observe, Orient, Decide, Act
+//
+// Bet - desired vs limit - based on starting funds and opponent aggression - read opponent to see which works better
+//     Bait - lower bet to get opponent to go in
+//     Bluff - higher bet to scare opponent out
+
 namespace PokerTournament
 {
     class Player1 : Player
     {
-        Random rand;
-        int initialMoney;
+        private Random rand;
+        private int initialMoney;
+        private int[] scores_r1;
+        private int[] scores_r2;
+        private float[] bets_r1;
+        private float[] bets_r2;
+
         public Player1(int idNum, string name, int money) : base(idNum, name, money)
         {
             rand = new Random();
             initialMoney = money;
+            scores_r1 = new int[] { 1, 2, 3, 4, 4, 4, 5, 5, 5, 5 };
+            scores_r2 = new int[] { 0, 1, 2, 3, 4, 4, 4, 5, 5, 5 };
+            bets_r1 = new float[] { 0.00f, 0.00f,   0.00f, 0.01f,   0.01f, 0.05f,   0.02f, 0.10f,   0.05f, 0.25f,   0.05f, 0.50f };
+            bets_r2 = new float[] { 0.00f, 0.00f,   0.01f, 0.05f,   0.03f, 0.10f,   0.10f, 0.25f,   0.25f, 0.75f,   0.50f, 5.00f };
         }
         public override PlayerAction BettingRound1(List<PlayerAction> actions, Card[] hand)
         {
-            PokerTournament.Card highCard;
+            float aggression = ((float)Money / (float)initialMoney) * 0.5f + 0.5f;
+
+            Card highCard;
             int handEval = Evaluate.RateAHand(this.Hand, out highCard);
-            int pot = CurrentPot(actions, "Bet1");
-            int betAmount = GetCurrentBet(actions, "Bet1");
-            float odds = CalculatePotOdds(betAmount, pot);
-            float returnRate = CalculateRateOfReturn(handEval, odds);
-            float chance = rand.Next(0, 100);
+
+            int currentScore = scores_r1[handEval - 1];
+            int newBet = (int)(bets_r1[currentScore * 2] * aggression * (float)initialMoney);
+            int maxBet = (int)(bets_r1[currentScore * 2 + 1] * (float)initialMoney);
+
             ListTheHand(hand);
-            Console.WriteLine("Return rate: " + returnRate);
-            //Console.ReadLine();
-            //Console.WriteLine("Chance: " + chance);
-            //Console.WriteLine("Pairs: " + CheckPair().Count);
-            if (returnRate < 4)
-            {
-                if (chance > 80)
-                {
-                    return new PlayerAction(Name, "Bet1", "raise", betAmount);
-                }
-                else
-                {
-                    return new PlayerAction(Name, "Bet1", "fold", 0);
-                }
-            }
-            else if (returnRate < 20)
-            {
-                if (chance > 50)
-                {
-                    return new PlayerAction(Name, "Bet1", "call", 0);
-                }
-                else if (chance > 40)
-                {
-                    return new PlayerAction(Name, "Bet1", "raise", betAmount);
-                }
-                else
-                {
-                    return new PlayerAction(Name, "Bet1", "fold", 0);
-                }
-            }
-            else
-            {
-                if (returnRate == float.PositiveInfinity)
-                {
-                    int res;
-                    res = 5 * handEval;
-                    if (res > Money)
-                    {
-                        res = Money;
-                    }
-                    return new PlayerAction(Name, "Bet1", "bet", res);
-                }
-                if (chance > 70)
-                {
-                    return new PlayerAction(Name, "Bet1", "call", 0);
-                }
-                else
-                {
-                    float fres = betAmount * (returnRate);
-                    int res;
-                    res = (int)fres;
-                    if (res > Money)
-                    {
-                        res = Money;
-                    }
-                    return new PlayerAction(Name, "Bet1", "raise", res);
-                }
-            }
-         
+
+            return MakeBet(actions, "Bet1", newBet, maxBet);
         }
 
         public override PlayerAction BettingRound2(List<PlayerAction> actions, Card[] hand)
         {
-            PokerTournament.Card highCard;
-            int handEval = Evaluate.RateAHand(this.Hand, out highCard);
-            int pot = CurrentPot(actions, "Bet2");
-            int betAmount = GetCurrentBet(actions, "Bet2");
-            float odds = CalculatePotOdds(betAmount, pot);
-            float returnRate = CalculateRateOfReturn(handEval, odds);
-            float chance = rand.Next(0, 100);
-            ListTheHand(hand);
-            Console.WriteLine("Return rate: " + returnRate);
-         
+            float aggression = ((float)Money / (float)initialMoney) * 0.5f + 0.5f;
 
-            if (returnRate < 4)
-            {
-                if (chance > 94)
-                {
-                    return new PlayerAction(Name, "Bet2", "raise", betAmount);
-                }
-                else
-                {
-                    return new PlayerAction(Name, "Bet2", "fold", 0);
-                }
-            }
-            else if (returnRate < 20)
-            {
-                if (chance > 94)
-                {
-                    return new PlayerAction(Name, "Bet2", "call", 0);
-                }
-                else if (chance > 79)
-                {
-                    return new PlayerAction(Name, "Bet2", "raise", betAmount);
-                }
-                else
-                {
-                    return new PlayerAction(Name, "Bet2", "fold", 0);
-                }
-            }
-            else
-            {
-                if (returnRate == float.PositiveInfinity)
-                {
-                    int res;
-                    res = 5 * handEval;
-                    if (res > Money)
-                    {
-                        res = Money;
-                    }
-                    return new PlayerAction(Name, "Bet2", "bet", res);
-                }
-                if (chance > 70)
-                {
-                    return new PlayerAction(Name, "Bet2", "call", 0);
-                }
-                else
-                {
-                    float fres = betAmount * (returnRate);
-                    int res;
-                    res = (int)fres;
-                    if (res > Money)
-                    {
-                        res = Money;
-                    }
-                    return new PlayerAction(Name, "Bet2", "raise", res);
-                }
-            }
-           
+            Card highCard;
+            int handEval = Evaluate.RateAHand(this.Hand, out highCard);
+
+            int currentScore = scores_r2[handEval - 1];
+            int newBet = (int)(bets_r2[currentScore * 2] * aggression * (float)initialMoney);
+            int maxBet = (int)(bets_r2[currentScore * 2 + 1] * (float)initialMoney);
+
+            ListTheHand(hand);
+
+            return MakeBet(actions, "Bet2", newBet, maxBet);
         }
 
         //Handles discarding and drawing new cards
         public override PlayerAction Draw(Card[] hand)
         {
-            PokerTournament.Card highCard;
-            int handEval = Evaluate.RateAHand(this.Hand, out highCard);
-            List<int> cardsToDelete = new List<int>();
-            List<int> pair = new List<int>();
-            pair = CheckPair();
-            PlayerAction pa = null;
-            int discardAmount = 0;
-            if (handEval > 4)
-            {
-                //Counts for the dominant suit and dominant value of the hand
-                int[] suites = { 0, 0, 0, 0 };
-                int[] values = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-                for (int i = 0; i < this.Hand.Length; i++)
-                {
-                    //Add this card's suit to the count
-                    switch (this.Hand[i].Suit)
-                    {
-                        case "Club":
-                            suites[0]++;
-                            break;
-                        case "Diamond":
-                            suites[1]++;
-                            break;
-                        case "Heart":
-                            suites[2]++;
-                            break;
-                        default:
-                            suites[3]++;
-                            break;
-                    }
-                    values[this.Hand[i].Value]++;
-                }
+            Card highCard;
+            int handEval = Evaluate.RateAHand(hand, out highCard);
+            int discardCount = 0;
 
-                //If we have a dominant suit (4 cards), discard any cards that aren't part of it
-                List<int> discards = new List<int>();
-                for (int i = 0; i < suites.Length; i++)
+            // Don't mess with good non-pair-based hands
+            if (handEval == 5 || handEval == 6 || handEval == 9 || handEval == 10)
+            {
+                return new PlayerAction(Name, "Draw", "stand pat", 0);
+            }
+
+            for (int i = 0; i < 5; ++i)
+            {
+                int cardValue = hand[i].Value;
+                bool cardMatched = false;
+                for (int j = 0; j < 5; ++j)
                 {
-                    //Add this card's suit to the count
-                    switch (suites[i])
+                    if (i != j && hand[j] != null && cardValue == hand[j].Value)
                     {
-                        case 1:
-                            //Get the card's index if it should be discarded
-                            for (int k = 0; k < this.Hand.Length; i++)
-                            {
-                                if (this.Hand[k].Suit == "Club" && i == 0) discards.Add(k);
-                                else if (this.Hand[k].Suit == "Diamond" && i == 1) discards.Add(k);
-                                else if (this.Hand[k].Suit == "Club" && i == 2) discards.Add(k);
-                                else if (this.Hand[k].Suit == "Spade" && i == 3) discards.Add(k);
-                            }
-                            break;
-                        default:
-                            break;
+                        cardMatched = true;
+                        break;
                     }
                 }
 
-                if (discards.Count > 0)
+                if (!cardMatched)
                 {
-                    Console.WriteLine("Discarding " + discards[0].ToString());
-                    pa = new PlayerAction(Name, "Draw", "draw", discards.Count);
-                    return pa;
+                    hand[i] = null;
+                    discardCount++;
                 }
+            }
 
-                pa = new PlayerAction(Name, "Draw", "stand pat", 0);
-                return pa;
-            }
-            if (pair.Count == 0)
-            {
-                if (highCard.Value == 14) //If Ace
-                {
-                    for (int i = 0; i < Hand.Length; i++)
-                    {
-                        if (Hand[i].Value != 14)
-                        {
-                            Console.WriteLine("Discarding " + Hand[i].ToString());
-                            hand[i] = null;
-                            discardAmount++;
-                        }
-                    }
-                }
-                else //Otherwise keep highest two cards
-                {
-                    PokerTournament.Card highCardOld;
-                    int handEvalNew = Evaluate.RateAHand(this.Hand, out highCardOld);
-                    Card[] handTemp = this.Hand;
-                    for (int i = 0; i < Hand.Length; i++)
-                    {
-                        if (Hand[i] == highCardOld)
-                        {
-                            handTemp[i] = new PokerTournament.Card("Spades", 2); ;
-                        }
-                    }
-                    PokerTournament.Card highCardNew;
-                    handEvalNew = Evaluate.RateAHand(handTemp, out highCardNew);
-                    for (int i = 0; i < Hand.Length; i++)
-                    {
-                        if (Hand[i] == highCardOld || Hand[i] == highCardNew)
-                        {
-                            Hand[i] = null;
-                            discardAmount++;
-                        }
-                    }
-                }
-                pa = new PlayerAction(Name, "Draw", "draw", discardAmount); //Draws equal to discard amount
-                return pa;
-                //Should keep ace or two highest cards
-            }
-            else
-            {
-                Console.WriteLine("There are " + pair.Count + " pairs, attempting to discard.");
-                for (int r = 0; r < pair.Count; r++)
-                {
-                    for (int i = 0; i < Hand.Length; i++)
-                    {
-                        if (Hand[i] != null)
-                        {
-                            if (!pair.Contains(Hand[i].Value))
-                            {
-                                Console.WriteLine("Discarding " + Hand[i].ToString());
-                                hand[i] = null;
-                                discardAmount++;
-                            }
-                        }
-                    }
-                }
-            }
-            pa = new PlayerAction(Name, "Draw", "draw", discardAmount); //Draws equal to discard amount
-            return pa;
-        }
-
-        //Returns a list of values that have pairs or more
-        public List<int> CheckPair()
-        {
-            List<int> valCount = new List<int>();
-            for (int r = 2; r < 15; r++)
-            {
-                int tempCount = Evaluate.ValueCount(r, Hand);
-                if (tempCount > 1)
-                {
-                    valCount.Add(r);
-                }
-            }
-            return valCount;
-        }
-
-        //Returns odds of bet compared to the current pot
-        public float CalculatePotOdds(float bet, float pot)
-        {
-            float odds = 0f;
-            if (bet + pot > 0)
-            {
-                odds = bet / (bet + pot);
-            }
-            return odds;
-        }
-
-        //Returns the rate of return of continuing to bet
-        public float CalculateRateOfReturn(float handStrength, float odds)
-        {
-            float rate = 0f;
-            rate = (handStrength) / odds;
-            return rate;
-        }
-
-        //Returns the current value of bets
-        public int GetCurrentBet(List<PlayerAction> actions, string phase)
-        {
-            int bet = 0;
-            for (int i = 0; i < actions.Count; i++)
-            {
-                if (actions[i].ActionPhase.Equals(phase))
-                {
-                    if (actions[i].ActionName.Equals("bet") || actions[i].ActionName.Equals("raise"))
-                    {
-                        bet = actions[i].Amount;
-                    }
-                }
-            }
-            if (bet > Money)
-            {
-                bet = Money;
-            }
-            return bet;
-        }
-
-        //Gets the value of the current pot
-        public int CurrentPot(List<PlayerAction> actions, string phase)
-        {
-            int pot = 0;
-            for (int i = 0; i < actions.Count; i++)
-            {
-                if (actions[i].ActionPhase.Equals(phase))
-                {
-                    if (actions[i].ActionName.Equals("bet") || actions[i].ActionName.Equals("raise"))
-                    {
-                        pot += actions[i].Amount;
-                    }
-                }
-            }
-            if (pot > initialMoney * 2)
-            {
-                pot = initialMoney * 2;
-            }
-            return pot;
+            return new PlayerAction(Name, "Draw", "draw", discardCount);
         }
 
         // helper method - list the hand
@@ -379,6 +113,66 @@ namespace PokerTournament
                 Console.Write(hand[i].ToString() + " ");
             }
             Console.WriteLine();
+        }
+
+        // Bet and Raise are just the same thing - fuse them here with call and check to make the system happy without convoluting our code
+        private PlayerAction MakeBet(List<PlayerAction> playerActions, string currentBet, int betValue, int maxValue)
+        {
+            int bet = 0;
+            bool shouldRaise = false;
+
+            // Figure out the current bet (why doesn't the game have this built in?)
+            for (int i = 0; i < playerActions.Count; i++)
+            {
+                if (playerActions[i].ActionName.Equals("bet") || playerActions[i].ActionName.Equals("raise"))
+                {
+                    bet += playerActions[i].Amount;
+                    shouldRaise = true;
+                }
+                else if (playerActions[i].ActionName.Equals("draw"))
+                {
+                    shouldRaise = false;
+                }
+            }
+
+            // Not worth trying to play it
+            if (bet > maxValue)
+            {
+                Console.WriteLine("Folding - {0}/{1}/{2}", bet, betValue, maxValue);
+                return new PlayerAction(Name, currentBet, "fold", 0);
+            }
+
+            if (bet > Money)
+            {
+                bet = Money;
+            }
+
+            // We want to (and can) up it
+            if (betValue > bet)
+            {
+                if (shouldRaise)
+                {
+                    Console.WriteLine("Raising - {0}/{1}/{2}", bet, betValue, maxValue);
+                    return new PlayerAction(Name, currentBet, "raise", betValue - bet);
+                }
+                else
+                {
+                    Console.WriteLine("Betting - {0}/{1}/{2}", bet, betValue, maxValue);
+                    return new PlayerAction(Name, currentBet, "bet", betValue - bet);
+                }
+            }
+
+            // Higher than we want but not unreasonable - match it
+            if (bet != 0)
+            {
+                Console.WriteLine("Calling - {0}/{1}/{2}", bet, betValue, maxValue);
+                return new PlayerAction(Name, currentBet, "call", 0);
+            }
+            else
+            {
+                Console.WriteLine("Checking - {0}/{1}/{2}", bet, betValue, maxValue);
+                return new PlayerAction(Name, currentBet, "check", 0);
+            }
         }
     }
 }

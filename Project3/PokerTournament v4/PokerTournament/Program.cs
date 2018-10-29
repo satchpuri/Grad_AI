@@ -32,9 +32,10 @@ namespace PokerTournament
             Human h1 = new Human(1, "Sue", 1000);
 
             // create the Game
-            Game myGame = new Game(h0, h1);
             Player1 ai1 = new Player1(1, "AI ROBOT", 1000);
             Player1 ai2 = new Player1(1, "AI ROBOT 2", 1000);
+
+            Game myGame = new Game(h0, ai1);
 
             myGame.Tournament(); // run the game
         }

@@ -29,3 +29,10 @@ D:\Profiles\sp1796\Downloads\Project3\PokerTournament v4\PokerTournament\obj\Deb
 D:\Profiles\sp1796\Downloads\Project3\PokerTournament v4\PokerTournament\obj\Debug\PokerTournament.csproj.CoreCompileInputs.cache
 D:\Profiles\sp1796\Downloads\Project3\PokerTournament v4\PokerTournament\obj\Debug\PokerTournament.exe
 D:\Profiles\sp1796\Downloads\Project3\PokerTournament v4\PokerTournament\obj\Debug\PokerTournament.pdb
+C:\Users\Kenny\Documents\Grad_AI\Project3\PokerTournament v4\PokerTournament\bin\Debug\PokerTournament.exe.config
+C:\Users\Kenny\Documents\Grad_AI\Project3\PokerTournament v4\PokerTournament\bin\Debug\PokerTournament.exe
+C:\Users\Kenny\Documents\Grad_AI\Project3\PokerTournament v4\PokerTournament\bin\Debug\PokerTournament.pdb
+C:\Users\Kenny\Documents\Grad_AI\Project3\PokerTournament v4\PokerTournament\obj\Debug\PokerTournament.csprojAssemblyReference.cache
+C:\Users\Kenny\Documents\Grad_AI\Project3\PokerTournament v4\PokerTournament\obj\Debug\PokerTournament.csproj.CoreCompileInputs.cache
+C:\Users\Kenny\Documents\Grad_AI\Project3\PokerTournament v4\PokerTournament\obj\Debug\PokerTournament.exe
+C:\Users\Kenny\Documents\Grad_AI\Project3\PokerTournament v4\PokerTournament\obj\Debug\PokerTournament.pdb
