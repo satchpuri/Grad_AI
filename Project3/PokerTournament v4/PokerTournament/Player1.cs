@@ -26,10 +26,10 @@ namespace PokerTournament
         {
             rand = new Random();
             initialMoney = money;
-            scores_r1 = new int[] { 1, 2, 3, 4, 4, 4, 5, 5, 5, 5 };
-            scores_r2 = new int[] { 0, 1, 2, 3, 4, 4, 4, 5, 5, 5 };
-            bets_r1 = new float[] { 0.00f, 0.00f,   0.00f, 0.01f,   0.01f, 0.05f,   0.02f, 0.10f,   0.05f, 0.25f,   0.05f, 0.50f };
-            bets_r2 = new float[] { 0.00f, 0.00f,   0.01f, 0.05f,   0.03f, 0.10f,   0.10f, 0.25f,   0.25f, 0.75f,   0.50f, 5.00f };
+            scores_r1 = new int[] { 1, 2, 3, 4, 4, 4, 5, 5, 6, 6 };
+            scores_r2 = new int[] { 0, 1, 2, 3, 4, 4, 4, 5, 6, 6 };
+            bets_r1 = new float[] { 0.00f, 0.00f,   0.00f, 0.01f,   0.01f, 0.05f,   0.02f, 0.10f,   0.05f, 0.25f,   0.05f, 0.50f,   0.10f, 5.00f };
+            bets_r2 = new float[] { 0.00f, 0.00f,   0.01f, 0.05f,   0.03f, 0.10f,   0.10f, 0.25f,   0.25f, 0.60f,   0.50f, 0.90f,   0.50f, 5.00f };
         }
         public override PlayerAction BettingRound1(List<PlayerAction> actions, Card[] hand)
         {
